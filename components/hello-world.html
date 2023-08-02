@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello</title>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/JSXTransformer.js"></script>
+    <script src="/index.js"></script>
+    <script type="text/jsx">
+      var word = 'puppy';
+
+      React.render(
+        <Hello word={ word }/>,
+        document.getElementById('content')
+      );
+    </script>
+  </body>
+</html>
